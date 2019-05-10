@@ -12,13 +12,15 @@ body{background:#333;}
 
 
 <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+
 <script type="text/javascript">
 
 var minSize=5;//雪片的最小尺寸
 var maxSize=50;//雪片的最大尺寸
 var speed=100;//雪片的下降速度为100毫秒
 var color="#fff";//雪片的颜色为白色
-var snowflake=$("<div></div>").css({"position":"absolute","top":"-50px"}).html("❉");//创建一个div用来放雪花的并让其从浏览器-50px处飘落
+var snowflake=$("<div></div>").css({"position":"absolute","top":"-50px"}).html("❉");
+//创建一个div用来放雪花的并让其从浏览器-50px处飘落
 
 
 $(function(){
